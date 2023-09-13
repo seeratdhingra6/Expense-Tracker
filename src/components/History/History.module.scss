@@ -1,0 +1,52 @@
+.root{
+    width: 100%;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-weight:700;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000;
+}
+.linkHistory{
+    color: #308ce2;
+    text-decoration: none;
+}
+.historyTitle{
+    margin-top: 20px;
+    color: #808080;
+}
+.renderedDataWrapper{
+    width: 100%;
+    padding: 0px;
+}
+.expenseType{
+    width: auto;
+    box-sizing: border-box;
+    background-color: #fff;
+    list-style: none;
+    margin-bottom: 20px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-size: 18px;
+    box-shadow: 4px 4px 5px rgba(185,184,184,.7411764705882353);
+    border-right:5px solid red;
+}
+.incomeType{
+    width: auto;
+    box-sizing: border-box;
+    background-color: #fff;
+    list-style: none;
+    margin-bottom: 20px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-size: 18px;
+    box-shadow: 4px 4px 5px rgba(185,184,184,.7411764705882353);
+     border-right:5px solid green;
+}
