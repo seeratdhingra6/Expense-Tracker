@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./History.module.scss";
 import { Link } from "react-router-dom";
 const History = ({ transactions }) => {
-  const [first, second, ...rest] = transactions;
+  const [first, second] = transactions;
   const displayTransactions =
     transactions.length > 2 ? [first, second] : transactions;
   return (
